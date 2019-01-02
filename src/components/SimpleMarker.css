@@ -1,0 +1,45 @@
+.marker{
+    background-image: url("/images/map-pin.png");
+    background-size: 45px;
+    background-repeat: no-repeat;
+    position: absolute;
+    cursor: pointer;
+    width: 45px;
+    height: 64px;
+    top: -64px;
+    left: -25px;
+    transform-origin: 24.5px 64px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 200;
+    color: white;
+}
+
+
+.bigMarker{
+    background-image: url("/images/map-pin.png");
+    background-size: 80px;
+    background-repeat: no-repeat;
+    position: absolute;
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    top: -64px;
+    left: -25px;
+    transform-origin: 24.5px 64px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 200;
+    color: white;
+}
+
+.bigMarker p {
+    margin: auto;
+    width: 50%;
+    font-size: 12px;
+    margin-top: 19px;
+}
